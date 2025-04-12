@@ -5,7 +5,6 @@ public class B001_Demo {
 
 		System.out.println("Hello java");
 		System.out.println("Hello Python");
-
 		
 		//int a12$_ = 10;
 		
