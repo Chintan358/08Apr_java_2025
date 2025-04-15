@@ -66,6 +66,21 @@ Variable names should start with a lowercase letter.
  Turnary
  Assignment 
  
+ **************************
+ STATEMENTS : 
+ 
+ conditional
+ if-else
+ switch-case
+ 
+ looping
+ for
+ while
+ do-while
+ 
+ control
+ break
+ continue
  
  
  

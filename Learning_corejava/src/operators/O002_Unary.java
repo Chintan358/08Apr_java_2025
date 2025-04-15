@@ -15,5 +15,6 @@ public class O002_Unary {
 		System.out.println(a); //13  //    //10 //10
 		System.out.println(b); //10  //20  //20
 		
+		
 	}
 }
