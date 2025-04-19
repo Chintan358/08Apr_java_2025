@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class S003_Calc {
 	public static void main(String[] args) {
 		
-		
+		int choice = 0;
+		do {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter a : ");
 		double a = sc.nextDouble();
 		System.out.println("enter b : ");
 		double b = sc.nextDouble();
 		System.out.println("enter choice : ");
-		System.out.println("1 : Add ,  2 : sub, 3 : Mul, 4: div");
-		int choice = sc.nextInt();
+		System.out.println("1 : Add ,  2 : sub, 3 : Mul, 4: div, 0: Exit");
+		choice = sc.nextInt();
 		
 		
 		if(choice==1)
@@ -32,9 +33,14 @@ public class S003_Calc {
 		{
 			System.out.println("Division is : "+(a/b));
 		}
+		else if(choice==0)
+		{
+			System.out.println("You are exit");
+		}
 		else
 		{
 			System.out.println("Invalid choice");
 		}
+		}while(choice!=0);
 	}
 }

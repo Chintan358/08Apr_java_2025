@@ -1,6 +1,0 @@
-Class  : name should start with upppercase
-package : name should be in smallcase
-
-single line commnet : ctrl + /
-multiline commnets : ctrl+shift+/
-multiline uncommnets : ctrl+shift+\
