@@ -16,7 +16,7 @@ public class S006_WhileLoop {
 		{
 			i++;
 			System.out.println(i);
-		}while(i<20);
+		}while(i!=0);
 		
 		
 		
