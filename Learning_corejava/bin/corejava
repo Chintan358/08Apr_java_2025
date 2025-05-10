@@ -98,15 +98,43 @@ Variable names should start with a lowercase letter.
             *
             
             
+ //oops : 
+ //pop
+ 
+ 
+ class
+ object
+ encaptulation
+ inheritnce
+ polymorpishm
+ abstraction
  
  
  
  
+ Class : 
+ logical entity
+ collection of data member and meber function of object
+ 
+
+ Object : 
+ real time entity
  
  
+ state / variables /  datamemeber
+ behaviour / methods / function memeber
  
+ function sysntax : 
  
+ Accessmodifier returntype* methoname(args...)
+ {
+  body
+ } 
  
+ memeber can be of 2 types : 
+ static / class member : can have a only copy in jvm
+ 
+ non-static : by default : can have multiple copy in jvm dependce onobject creation / instance
  
  
  
