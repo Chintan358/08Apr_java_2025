@@ -1,0 +1,105 @@
+package oops;
+
+import java.util.Iterator;
+
+class Calc
+{
+	public void getMsg()
+	{
+		System.out.println("message");
+	}
+	
+	public void square(int number)
+	{
+		System.out.println("Square is : "+(number*number));
+	}
+	
+	public void add(int a, int b)
+	{
+		System.out.println("Addition is : "+(a+b));
+	}
+	
+	public String display()
+	{
+		return "display sometinh...";
+	}
+	
+	public int cube(int num)
+	{
+		int cb  =num*num*num;
+		return cb;
+	}
+	
+	public void addArray(int a[])
+	{
+		int sum =0;
+		for (int i = 0; i < a.length; i++) {
+			sum+=a[i];
+		}
+		System.out.println("sum of array : "+sum);
+	}
+	
+	
+	public int[] revArray(int a[])
+	{
+		int b[] = new int[a.length];
+		int count = 0;
+		for(int i=a.length-1;i>=0;i--)
+		{
+			b[count] = a[i];
+			count++;
+		}
+		
+		return b;
+	}
+	
+	
+	public void test(int...a)
+	{
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	
+	
+	
+}
+
+public class O004_MethodManipulation {
+	public static void main(String[] args) {
+		
+		
+		Calc c = new Calc();
+		c.getMsg();
+		c.square(10);
+		c.square(20);
+		c.add(10, 20);
+		String str =  c.display();
+		System.out.println(str);
+		System.out.println(c.display());
+		
+		int i =  c.cube(10);
+		System.out.println(i);
+		System.out.println(c.cube(50));
+		
+		
+		
+		int a[] = {10,20,30,40,50,60};
+		c.addArray(a);
+		int b[] = {1,2,34,5,6};
+		c.addArray(b);
+		
+		
+		int k[] = c.revArray(b);
+		for (int j = 0; j < k.length; j++) {
+			System.out.println(k[j]);
+		}
+		
+		
+		c.test(10,20,30,40,50,60);
+	}
+	
+	
+	
+	
+}
