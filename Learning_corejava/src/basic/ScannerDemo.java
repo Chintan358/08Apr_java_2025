@@ -2,6 +2,8 @@ package basic;
 
 import java.util.Scanner;
 
+import oops.Access;
+
 public class ScannerDemo {
 	public static void main(String[] args) {
 		
@@ -18,5 +20,10 @@ public class ScannerDemo {
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(name);
+		
+		
+//		Access ac = new Access();
+//		System.out.println(ac.id);
+//		ac.display();
 	}
 }

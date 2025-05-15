@@ -1,6 +1,15 @@
 package basic;
 
-public class B001_Demo {
+import oops.Access;
+
+public class B001_Demo extends Access {
+	
+	public void disp()
+	{
+		System.out.println(name);
+	}
+	
+	
 	public static void main(String[] args) {
 
 		System.out.println("Hello java");
@@ -12,6 +21,9 @@ public class B001_Demo {
 		
 		int a = 10;
 		int static1 = 20;
+		
+		
+		
 		
 	}
 }

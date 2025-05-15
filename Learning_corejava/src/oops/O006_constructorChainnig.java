@@ -1,0 +1,42 @@
+package oops;
+
+class P
+{
+		P()
+		{
+			System.out.println("P class const. calling...");
+		}
+}
+
+class Q extends P
+{
+		Q()
+		{
+			super();
+			System.out.println("Q class const. calling...");
+		}
+		
+		Q(String name)
+		{
+			this();
+			System.out.println("Name is : "+name);
+		}
+}
+
+class R extends Q
+{
+		R()
+		{
+			super("Harshani");
+			System.out.println("R class const. calling...");
+		}
+}
+
+public class O006_constructorChainnig {
+	public static void main(String[] args) {
+		
+		R r  = new R();
+		
+		
+	}
+}

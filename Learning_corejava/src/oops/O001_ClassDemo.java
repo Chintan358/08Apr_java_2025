@@ -37,5 +37,10 @@ public class O001_ClassDemo {
 		p3.toWrite();
 		
 		Pen.display();
+		
+//		Access ac = new Access();
+//		System.out.println(ac.id);
+//		ac.display();
+		
 	}
 }

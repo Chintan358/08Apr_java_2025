@@ -1,0 +1,28 @@
+package oops;
+
+class P
+{
+	
+}
+
+class Q
+{
+	
+}
+
+class R
+{
+		R()
+		{
+			System.out.println("R class const. calling...");
+		}
+}
+
+public class O006_constructorChainnig {
+	public static void main(String[] args) {
+		
+		R r  = new R();
+		
+		
+	}
+}

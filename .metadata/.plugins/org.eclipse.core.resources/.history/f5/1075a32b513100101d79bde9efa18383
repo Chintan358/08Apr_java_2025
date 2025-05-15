@@ -1,0 +1,34 @@
+package oops;
+
+class A
+{
+	int a = 10;
+	public void display()
+	{
+		System.out.println(a);
+		System.out.println("running class A display method");
+	}
+}
+
+class B extends A
+{
+	public void show()
+	{
+		System.out.println(a);
+		System.out.println("running show of class B");
+	}
+}
+
+
+public class O005_InheritanceDemo {
+	public static void main(String[] args) {
+		
+		
+		B b = new B();
+		b.show();
+		b.display();
+		
+		
+		
+	}
+}

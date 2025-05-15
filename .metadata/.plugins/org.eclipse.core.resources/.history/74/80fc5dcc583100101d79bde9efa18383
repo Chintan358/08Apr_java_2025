@@ -1,0 +1,24 @@
+package basic;
+
+import oops.Access;
+
+public class B001_Demo extends Access {
+	
+	
+	
+	public static void main(String[] args) {
+
+		System.out.println("Hello java");
+		System.out.println("Hello Python");
+		
+		//int a12$_ = 10;
+		
+//		int myRollNumber = 10;
+		name = "abc";
+		int a = 10;
+		int static1 = 20;
+		
+		
+		
+	}
+}
