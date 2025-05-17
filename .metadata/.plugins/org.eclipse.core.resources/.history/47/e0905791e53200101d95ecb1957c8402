@@ -1,0 +1,13 @@
+package oops;
+
+public class O007_Encaptulation {
+	public static void main(String[] args) {
+		
+		
+		Emp e  =new Emp();
+		e.setdata(10, "Harshani", "harshani@gmail.com");
+		e.display();
+		
+		
+	}
+}

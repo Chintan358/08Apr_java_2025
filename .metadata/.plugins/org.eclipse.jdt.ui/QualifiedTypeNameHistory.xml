@@ -8,4 +8,9 @@
     <fullyQualifiedTypeName name="oops.Demo"/>
     <fullyQualifiedTypeName name="oops.Calc"/>
     <fullyQualifiedTypeName name="oops.Access"/>
+    <fullyQualifiedTypeName name="oops.Emp"/>
+    <fullyQualifiedTypeName name="oops.Test"/>
+    <fullyQualifiedTypeName name="oops.Sample"/>
+    <fullyQualifiedTypeName name="oops.O009_MethoOverRiding"/>
+    <fullyQualifiedTypeName name="oops.Run"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,21 @@
+package oops;
+
+class Test
+{
+	public void add(int a, int b)
+	{
+		int r = a+b;
+		System.out.println("Addition is : "+(a+b));
+	}
+}
+
+public class O008_MethodOverLoading {
+	public static void main(String[] args) {
+		
+		
+		Test t = new Test();
+		t.add(10, 20);
+		
+		
+	}
+}

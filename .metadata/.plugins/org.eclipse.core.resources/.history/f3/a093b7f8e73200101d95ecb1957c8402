@@ -1,0 +1,27 @@
+package oops;
+
+class Test
+{
+	public void add(int a, int b)
+	{
+		int r = a+b;
+		System.out.println("Addition is : "+r);
+	}
+	
+	public void add(int a, int b, int c)
+	{
+		int r = a+b+c;
+		System.out.println("Addition is : "+r);
+	}
+}
+
+public class O008_MethodOverLoading {
+	public static void main(String[] args) {
+		
+		
+		Test t = new Test();
+		t.add(10, 20);
+		t.add(10, 20, 30);
+		
+	}
+}
