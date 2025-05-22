@@ -136,6 +136,38 @@ Variable names should start with a lowercase letter.
  
  non-static : by default : can have multiple copy in jvm dependce onobject creation / instance
  
+ Abstraction : 
+ hiding implimantation and showing functionality:
+ 
+ Abstract class : partial
+ containes abstract and instance method both
+ 
+ Interface : fully abstraction
+ contains abstract method only
+ 
+ Instance method : 
+ 
+ public void display()
+ {
+ }
+ 
+ abstract method : 
+ method without body
+ 
+ public void display();
+ 
+ *******************************
+ IMP Classes : 
+ String
+ String buffer
+ String builder
+ Wrapper
+ Object
+ Math
+ Random
+ Date
+ 
+ 
  
  
  
