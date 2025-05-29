@@ -6,9 +6,15 @@ public class Emp {
 		private String name;
 		private String email;
 		private String phone;
+		private String pass;
 		
 		
-		
+		public String getPass() {
+			return pass;
+		}
+		public void setPass(String pass) {
+			this.pass = pass;
+		}
 		public String getPhone() {
 			return phone;
 		}
