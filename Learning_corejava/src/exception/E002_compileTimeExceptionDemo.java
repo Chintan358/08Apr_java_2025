@@ -7,11 +7,8 @@ class Sample
 			Class.forName("basic.ScannerDemo");
 	}
 }
-
 public class E002_compileTimeExceptionDemo {
 	public static void main(String[] args) {
-		
-		
 		
 //		try 
 //		{
@@ -22,6 +19,7 @@ public class E002_compileTimeExceptionDemo {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
+		
 		
 		
 		Sample s = new Sample();

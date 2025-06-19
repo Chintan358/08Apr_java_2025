@@ -165,7 +165,23 @@ Variable names should start with a lowercase letter.
  Object
  Math
  Random
- Date
+ Date+
+ 
+ 
+ ********************************
+ File IO
+ **********
+ 
+ stream : flow of data from source to destination
+ 
+ 
+ byte : 
+ FileInputStream
+ FileOutputStream
+ 
+ char.:
+ FileReader
+ FileWriter
  
  
  
