@@ -1,0 +1,31 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class C009_ProductCollection {
+	public static void main(String[] args) {
+		
+		ArrayList<Product> products = new ArrayList<Product>();
+		products.add(new Product(1, "Pen", 500, 10));
+		products.add(new Product(2, "Fan", 700, 5));
+		products.add(new Product(4, "TV", 5000, 4));
+		products.add(new Product(8, "CPU", 1500, 2));
+		products.add(new Product(9, "Mouse", 200, 11));
+		
+//		Collections.sort(products, new SortProductById());
+//		Collections.sort(products, new SortProductByPrice());
+//		Collections.sort(products, new SortProductByQty());
+		Collections.sort(products,new SortProductByName());
+		
+		for(Product p : products)
+		{
+			System.out.println(p);
+		}
+		
+		
+		
+		
+		
+	}
+}

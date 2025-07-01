@@ -1,0 +1,21 @@
+package collection;
+
+import java.util.HashMap;
+
+public class C010_HashMap {
+	public static void main(String[] args) {
+		
+		
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		map.put(10, "Java");
+		map.put(20, "Python");
+		map.put(30, "Android");
+		map.put(40, "Node");
+		
+		System.out.println(map);
+		
+		
+		
+		
+	}
+}

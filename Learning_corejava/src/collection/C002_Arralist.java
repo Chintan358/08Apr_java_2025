@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class C002_Arralist {
 	public static void main(String[] args) {
@@ -18,11 +19,13 @@ public class C002_Arralist {
 		ArrayList<Integer> al1 = new ArrayList<Integer>(al);
 		al1.add(1);
 		al1.add(2);
-		al1.add(3);
+		al1.add(6);
 		al1.add(4);
 		al1.add(5);
 		al1.addAll(al);
 		al1.removeAll(al);
+		
+		Collections.sort(al1);
 		
 		for(Integer i : al1)
 		{

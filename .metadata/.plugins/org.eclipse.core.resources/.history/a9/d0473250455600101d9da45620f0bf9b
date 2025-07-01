@@ -1,0 +1,26 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class C010_HashMap {
+	public static void main(String[] args) {
+		
+		
+//		HashMap<Integer, String> map = new HashMap<Integer, String>();
+//		LinkedHashMap<Integer, String> map = new LinkedHashMap<Integer, String>();
+		TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+		map.put(10, "Java");
+		map.put(70, "Python");
+		map.put(50, "Android");
+		map.put(40, "Node");
+		map.put(10, "Php");
+		
+		System.out.println(map);
+		
+		
+		
+		
+	}
+}
