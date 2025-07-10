@@ -1,0 +1,78 @@
+package thread;
+
+import java.util.Scanner;
+
+class Account
+{
+	double balance;
+
+	public Account(double balance) {
+		super();
+		this.balance = balance;
+	}
+	
+	public boolean isAmountExist(double amt)
+	{
+		boolean b = false;
+		if(amt>balance)
+		{
+			b = false;
+		}
+		else
+		{
+			b = true;
+		}
+		return b;
+	}
+	
+	public void withdrow(double amt)
+	{
+		balance = balance-amt;
+	}
+	
+	
+}
+
+class Customer extends Thread
+{
+	String name;
+	Account account;
+	public Customer(Account account, String name)
+	{
+		this.name = name;
+		this.account = account;
+	}
+	
+	public void run()
+	{
+		Scanner sc  =new Scanner(System.in);
+		System.out.println("enter amount : "+name);
+		double amt = sc.nextDouble();
+		if(account.isAmountExist(amt))
+		{
+				
+		}
+		else
+		{
+			System.out.println("Insufficient amomunt");
+		}
+	}
+	
+	
+}
+
+public class Bank {
+	
+	public static void main(String[] args) {
+		
+		Account account = new Account(5000);
+		
+		Customer c1 = new Customer(account,"Harshani");
+		Customer c2 = new Customer(account,"Kritesh");
+		
+		c1.start();
+		c2.start();
+		
+	}
+
+}

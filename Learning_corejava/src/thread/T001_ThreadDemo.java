@@ -1,0 +1,38 @@
+package thread;
+
+
+
+class T1 extends Thread
+{
+	public void run()
+	{
+		for(int i=1;i<=10;i++)
+		{
+			try {
+				sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println(currentThread().getName()+" : "+i);
+		}
+	}
+}
+
+
+public class T001_ThreadDemo {
+	public static void main(String[] args) {
+		
+		T1 t1 = new T1();
+		T1 t2 = new T1();
+		T1 t3 = new T1();
+		
+		t1.setName("A");
+		t2.setName("B");
+		t3.setName("C");
+		
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+}

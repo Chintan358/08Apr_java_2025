@@ -1,0 +1,47 @@
+package thread;
+
+class Account
+{
+	double balance;
+
+	public Account(double balance) {
+		super();
+		this.balance = balance;
+	}
+	
+	
+}
+
+class Customer extends Thread
+{
+	String name;
+	Account account;
+	public Customer(Account account, String name)
+	{
+		this.name = name;
+		this.account = account;
+	}
+	
+	public void run()
+	{
+		System.out.println(name);
+	}
+	
+	
+}
+
+public class Bank {
+	
+	public static void main(String[] args) {
+		
+		Account account = new Account(5000);
+		
+		Customer c1 = new Customer(account,"Harshani");
+		Customer c2 = new Customer(account,"Kritesh");
+		
+		c1.start();
+		c2.start();
+		
+	}
+
+}
